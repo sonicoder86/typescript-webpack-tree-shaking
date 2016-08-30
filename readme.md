@@ -1,4 +1,5 @@
 # Tree-shaking example with Typescript and Webpack
+[![devDependency Status](https://david-dm.org/blacksonic/typescript-webpack-tree-shaking/dev-status.svg)](https://david-dm.org/blacksonic/typescript-webpack-tree-shaking#info=devDependencies)
 
 This repository shows how to configure Typescript and Webpack to enable tree-shaking for development and production builds.
 

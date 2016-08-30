@@ -8,7 +8,6 @@
     "webpack-prod": "webpack --config webpack.prod.config.js",
     "webpack-es2015": "webpack --config webpack.es2015.config.js",
     "webpack-es2015-prod": "webpack --config webpack.es2015.prod.config.js",
-    "babili": "babili dist/car.es2015.bundle.js --out-file dist/car.es2015.prod.bundle.js --no-comments",
     "postinstall": "typings install",
     "serve": "http-server -a 0.0.0.0 -p 9000"
   },
@@ -16,7 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/blacksonic/typescript-webpack-tree-shaking.git"
   },
-  "keywords": ["tree-shaking", "typescript", "webpack"],
+  "keywords": [
+    "tree-shaking",
+    "typescript",
+    "webpack"
+  ],
   "author": {
     "name": "blacksonic",
     "email": "soos.gabor86@gmail.com"
@@ -30,8 +33,8 @@
     "babili-webpack-plugin": "^0.0.2",
     "http-server": "^0.9.0",
     "ts-loader": "^0.8.2",
-    "typescript": "^2.0.0-dev",
-    "typings": "^1.3.2",
+    "typescript": "^2.0.2",
+    "typings": "^1.3.3",
     "webpack": "^2.1.0-beta.21"
   }
 }
