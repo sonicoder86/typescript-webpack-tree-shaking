@@ -8,7 +8,6 @@
     "webpack-prod": "webpack --config webpack.prod.config.js",
     "webpack-es2015": "webpack --config webpack.es2015.config.js",
     "webpack-es2015-prod": "webpack --config webpack.es2015.prod.config.js",
-    "postinstall": "typings install",
     "serve": "http-server -a 0.0.0.0 -p 9000"
   },
   "repository": {
@@ -29,7 +28,7 @@
   "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-preset-latest": "^6.14.0",
-    "babili": "^0.0.3",
+    "babili": "^0.0.4",
     "babili-webpack-plugin": "^0.0.2",
     "http-server": "^0.9.0",
     "ts-loader": "^0.8.2",
