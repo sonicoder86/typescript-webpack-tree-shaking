@@ -13,13 +13,10 @@ module.exports = {
   },
 
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.ts$/,
-        loader: 'ts',
-        query: {
-          configFileName: 'tsconfig.es2015.json'
-        }
+        use: 'ts?configFileName=tsconfig.es2015.json'
       }
     ]
   },
@@ -29,8 +26,11 @@ module.exports = {
   ],
 
   resolve: {
-    root: [ path.join(__dirname, 'app') ],
-    extensions: ['', '.ts', '.js']
+    modules: [
+      'node_modules',
+      path.resolve(__dirname, 'app')
+    ],
+    extensions: ['.ts', '.js']
   },
 
   devtool: false

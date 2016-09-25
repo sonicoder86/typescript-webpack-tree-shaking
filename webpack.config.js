@@ -12,14 +12,17 @@ module.exports = {
   },
 
   module: {
-    loaders: [
-      { test: /\.ts$/, loader: 'ts' }
+    rules: [
+      { test: /\.ts$/, use: 'ts' }
     ]
   },
 
   resolve: {
-    root: [ path.join(__dirname, 'app') ],
-    extensions: ['', '.ts', '.js']
+    modules: [
+      'node_modules',
+      path.resolve(__dirname, 'app')
+    ],
+    extensions: ['.ts', '.js']
   },
 
   devtool: false
