@@ -26,12 +26,12 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "babel-core": "^6.14.0",
-    "babel-preset-latest": "^6.14.0",
-    "babili": "^0.0.5",
-    "babili-webpack-plugin": "^0.0.2",
+    "babel-core": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babili": "^0.0.7",
+    "babili-webpack-plugin": "^0.0.5",
     "http-server": "^0.9.0",
-    "ts-loader": "^0.8.2",
+    "ts-loader": "^0.9.5",
     "typescript": "^2.0.3",
     "webpack": "^2.1.0-beta.25"
   }
