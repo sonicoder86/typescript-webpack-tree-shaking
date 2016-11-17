@@ -16,7 +16,7 @@ module.exports = {
     rules: [
       {
         test: /\.ts$/,
-        use: 'ts?configFileName=tsconfig.es2015.json'
+        use: 'ts-loader?configFileName=tsconfig.es2015.json'
       }
     ]
   },
