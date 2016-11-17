@@ -23,7 +23,7 @@ Will replace UglifyJS with Babili when it gets stable.
 
 ### Requirements
 
-- typescript >= 2.0.0-dev or typescript >= 1.8 when using Babili on ES2015 output
+- typescript >= 2.0.0
 - webpack >= 2.1.0-beta
 
 ### Known issues
