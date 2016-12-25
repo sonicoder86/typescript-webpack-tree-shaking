@@ -82,6 +82,7 @@ var V6Engine = (function () {
     };
     return V6Engine;
 }());
+
 var V8Engine = (function () {
     function V8Engine() {
     }
@@ -90,6 +91,7 @@ var V8Engine = (function () {
     };
     return V8Engine;
 }());
+
 function getVersion() {
     return '1.0';
 }
