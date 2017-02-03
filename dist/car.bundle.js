@@ -68,11 +68,11 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export V6Engine */
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return V8Engine; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return V8Engine; });
 /* unused harmony export getVersion */
 var V6Engine = (function () {
     function V6Engine() {
@@ -97,12 +97,12 @@ function getVersion() {
 }
 
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__engine__ = __webpack_require__(0);
 
 var SportsCar = (function () {
@@ -117,5 +117,5 @@ var SportsCar = (function () {
 console.log(new SportsCar(new __WEBPACK_IMPORTED_MODULE_0__engine__["a" /* V8Engine */]()).toString());
 
 
-/***/ }
+/***/ })
 /******/ ]);

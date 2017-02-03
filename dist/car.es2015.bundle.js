@@ -68,7 +68,7 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export getVersion */
@@ -84,19 +84,19 @@ class V8Engine {
         return 'V8';
     }
 }
-/* harmony export (immutable) */ exports["a"] = V8Engine;
+/* harmony export (immutable) */ __webpack_exports__["a"] = V8Engine;
 
 function getVersion() {
     return '1.0';
 }
 
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__engine__ = __webpack_require__(0);
 
 class SportsCar {
@@ -110,5 +110,5 @@ class SportsCar {
 console.log(new SportsCar(new __WEBPACK_IMPORTED_MODULE_0__engine__["a" /* V8Engine */]()).toString());
 
 
-/***/ }
+/***/ })
 /******/ ]);
