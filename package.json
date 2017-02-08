@@ -29,7 +29,7 @@
     "babel-core": "6.22.1",
     "babel-preset-latest": "6.22.0",
     "babili": "0.0.10",
-    "babili-webpack-plugin": "0.0.9",
+    "babili-webpack-plugin": "0.0.10",
     "http-server": "0.9.0",
     "awesome-typescript-loader": "3.0.0-beta.18",
     "typescript": "2.1.5",
