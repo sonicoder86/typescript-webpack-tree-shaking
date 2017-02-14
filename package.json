@@ -26,7 +26,7 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "babel-core": "6.22.1",
+    "babel-core": "6.23.0",
     "babel-preset-latest": "6.22.0",
     "babili": "0.0.10",
     "babili-webpack-plugin": "0.0.9",
